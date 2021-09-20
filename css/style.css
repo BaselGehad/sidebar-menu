@@ -109,8 +109,44 @@ section {
     margin-left: 250px;
 }
 
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer a {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
 @media (max-width: 480px) {
     section {
         background-image: url(../images/bgmed.jpg);
+    }
+    .footer {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+    }
+    .footer p {
+        font-size: 17px;
     }
 }
